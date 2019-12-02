@@ -1,0 +1,15 @@
+soringboot\util\StringUtil.class
+springboot\model\Product.class
+springboot\common\LexJSONResult.class
+springboot\mapper\ProductMapper.class
+springboot\common\Httprequests.class
+springboot\service\UserService.class
+springboot\controller\HelloController.class
+springboot\mapper\ProductMaintainMapper.class
+springboot\common\AesCbcUtil.class
+springboot\model\RegisterCode.class
+springboot\service\impl\UserServiceImpl.class
+springboot\mapper\UserMapper.class
+springboot\model\ProductMaintain.class
+springboot\service\RegisterCodeService.class
+springboot\model\User.class
