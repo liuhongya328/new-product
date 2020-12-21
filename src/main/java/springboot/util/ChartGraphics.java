@@ -21,8 +21,8 @@ import com.google.zxing.EncodeHintType;
 import com.google.zxing.MultiFormatWriter;
 import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
-import com.sun.image.codec.jpeg.JPEGCodec;
-import com.sun.image.codec.jpeg.JPEGImageEncoder;
+//import com.sun.image.codec.jpeg.JPEGCodec;
+//import com.sun.image.codec.jpeg.JPEGImageEncoder;
 
 @Component
 public class ChartGraphics{
@@ -33,11 +33,11 @@ public class ChartGraphics{
 	
 	void createImage(String fileLocation) {
 		try {
-			FileOutputStream fos = new FileOutputStream(fileLocation);
-			BufferedOutputStream bos = new BufferedOutputStream(fos);
-			JPEGImageEncoder encoder = JPEGCodec.createJPEGEncoder(bos);
-			encoder.encode(image);
-			bos.close();
+//			FileOutputStream fos = new FileOutputStream(fileLocation);
+//			BufferedOutputStream bos = new BufferedOutputStream(fos);
+//			JPEGImageEncoder encoder = JPEGCodec.createJPEGEncoder(bos);
+//			encoder.encode(image);
+//			bos.close();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
